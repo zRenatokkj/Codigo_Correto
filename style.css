@@ -1,0 +1,44 @@
+body {
+    background: #d3d3d3;
+    font: normal 15pt Arial;
+
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+section {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.329);
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+.btn-contar {
+    background: linear-gradient(90deg, #b0b0b0 0%, #c0c0c0 100%);
+    color: #333;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 20px;
+    font-size: 1em;
+    font-weight: 500;
+    cursor: pointer;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+    transition: background 0.3s, transform 0.2s, box-shadow 0.2s;
+    outline: none;
+    margin-top: 10px;
+}
+.btn-contar:hover {
+    background: linear-gradient(90deg, #a9a9a9 0%, #b9b9b9 100%);
+    transform: scale(1.05);
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.15);
+}
