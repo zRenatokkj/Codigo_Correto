@@ -28,6 +28,6 @@ function contar() {
                 result.innerHTML += `${c} ✌🏻 `
             }
         }
-        result.innerHTML += `Fim`
+        result.innerHTML += `🏁Fim`
     }
 }
